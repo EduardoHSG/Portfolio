@@ -1,0 +1,42 @@
+.contactContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactList {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.logo {
+  color: #cfcfcf;
+}
+
+.github,
+.linkedin,
+.gmail {
+  height: 4rem;
+  width: 4rem;
+}
+
+.link {
+  padding-top: 1rem;
+  font-weight: 300;
+  transition: 0.5s;
+}
+
+.link:hover {
+  color: #dac44a;
+}
